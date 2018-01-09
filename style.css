@@ -19,6 +19,18 @@
     font-size: 24px;
 }
 
+#hinhanh {
+    width: 200px;
+    height: 250px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
 #hexagon {
     animation: baynhay 2s infinite;
 }
