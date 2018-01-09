@@ -1,0 +1,36 @@
+.d1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: brown;
+}
+
+.d1 h1 {
+    color: red;
+}
+
+.d1 h1:hover {
+    color: coral;
+}
+
+.aboutme {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+#hexagon {
+    animation: baynhay 2s infinite;
+}
+
+@keyframes baynhay {
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
