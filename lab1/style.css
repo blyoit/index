@@ -1,15 +1,14 @@
 body {
     font-family: Lobster;
     color: black;
-    text-align: center;
     font-size: 24px;
 }
 
 span.logo {
     content: url(./img/fpt.png);
-    width: 8%;
-    height: 8%;
-    margin-right: 15px;
+    float: left;
+    width: 10%;
+    height: 10%;
 }
 
 h1 {
@@ -38,12 +37,76 @@ form textarea {
 
 header h1 {
     text-align: center;
-    border: 2px solid rgb(216, 159, 35);
-    border-radius: 10px;
+}
+
+main {
+    text-align: center;
 }
 
 footer {
-    text-align: left;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+footer div ul {
+    float: left;
+    width: 20%;
+    list-style: none;
+}
+
+ul.fontsm li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c1";
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+ul li.fb:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f082";
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+ul li.twt:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f081";
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+ul li.ytb:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f431";
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+a:hover {
+    color: brown;
+    font-weight: bold;
+}
+
+footer div ul:nth-child(1) {
+    float: right;
+}
+
+footer div ul:nth-child(2) {
+    float: right;
+}
+
+footer div ul:nth-child(3) {
+    float: right;
+}
+
+footer div ul:nth-child(4) {
+    float: right;
+}
+
+footer div p {
+    float: right;
 }
