@@ -1,0 +1,80 @@
+body {
+    background-color: darkgrey;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: block;
+    background-color: brown;
+    height: 75px;
+}
+
+nav {
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+
+.nav-logo {
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.nav-menu {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+nav ul {
+    list-style: none;
+    display: block;
+    padding-top: 10px;
+}
+
+.li1 {
+    float: left;
+    width: 25%;
+}
+
+nav div ul li a {
+    text-decoration-line: none;
+    color: white;
+    padding: 8px;
+}
+
+nav div ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    padding: 8px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+main {
+    display: block;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.contact-left {
+    display: block;
+    float: left;
+    width: 900px;
+    height: 500px;
+    background-color: red;
+}
+
+.contact-right {
+    display: block;
+    float: left;
+    width: 380px;
+    height: 200px;
+    background-color: blue;
+}
