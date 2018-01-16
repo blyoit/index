@@ -29,6 +29,7 @@ header nav div #logo {
 
 header nav div ul {
     display: block;
+
     float: right;
     position: relative;
     height: 100%;
@@ -56,6 +57,7 @@ header nav div ul .nav-li a:hover {
 main {
     display: block;
     padding-top: 100px;
+    width: 1280px;
 }
 
 main .banner {
